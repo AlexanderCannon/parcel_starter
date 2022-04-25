@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "forceConsistentCasingInFileNames": false,
+      "jsx": "preserve",
+      "baseUrl": ".",
+      "incremental": true,
+      "types": ["dropzone", "node", "jest"],
+      "typeRoots": ["../node_modules/@types"]
+    },
+    "include": ["**/*.ts", "**/*.d.ts", "**/*.js", "**/*.tsx"]
+  }
+  
